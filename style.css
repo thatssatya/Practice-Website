@@ -1,0 +1,55 @@
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backimg.jpg);
+	background-size: cover;
+}
+
+ul {
+	color: red;
+	font-size: 25px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2, p {
+	color: #D8C30A;
+	text-align: center;
+	border: 5px solid #8B7D05;
+	cursor: pointer;
+}
+
+p {
+	color: lightblue;
+	text-decoration: underline;
+	/*text-transform: uppercase;*/
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Poiret One', cursive;
+}
+
+.webtext {
+	border: 5px dashed green;
+
+}
+
+#para1 {
+	background-color: rgba(255, 0, 0, 0.2);
+	color: orange;
+}
+
+#regform {
+	text-align: center;
+	color: pink;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="register.html">Register</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Register</h2>
+		<div id="regform">
+			<form>
+				Firstname: <input type="text" name="Firstname"><br>
+				Lastname: <input type="text" name="Lastname"><br>
+				E-Mail: <input type="email" name="E-Mail" required><br>
+				Password: <input type="password" name="Password" required><br>
+				Birthday: <input type="date" name="Birthday"><br>
+				Gender: <br>
+				<input type="radio" name="Gender" value="Male">Male<br>
+				<input type="radio" name="Gender" value="Female">Female<br>
+				<input type="radio" name="Gender" value="Others">Others<br>
+				Pets: <br>
+				<input type="checkbox" name="Cat">Cat<br>
+				<input type="checkbox" name="Dog">Dog<br>
+				Cars: <br>
+				<select name="Cars">
+					<option value="select">Select</option>
+					<option value="Volvo">Volvo</option>
+					<option value="Audi">Audi</option>
+				</select><br>
+				<input type="submit" value="Submit">
+				<input type="reset">
+			</form>
+		</div>
+	</section>
+</body>
+</html>
